@@ -1,3 +1,6 @@
 name = Action Enhancer
-description = A description of what your module does.
+description = Fügt verschiedene Aktionen für Webform-Results hinzu (Überarbeitung von webform_submissions_bulk_delete)
 core = 7.x
+package = Webform
+dependencies[] = webform
+dependencies[] = date_popup
